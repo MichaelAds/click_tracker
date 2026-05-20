@@ -219,8 +219,43 @@ export default function Page() {
     <main className="min-h-screen p-6 md:p-10 flex justify-center">
       <div className="w-full max-w-4xl flex flex-col gap-6">
         <header className="flex flex-col gap-2">
-          <h1 className="text-2xl font-mono tracking-tight text-white/90">
-            ◼ click-tracker
+          <h1 className="flex items-center justify-center gap-3 text-2xl font-mono tracking-tight text-white/90">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            className="h-9 w-9 text-emerald-300 sm:h-10 sm:w-10"
+          >
+            <circle cx="20" cy="18" r="8" fill="currentColor" opacity="0.85" />
+            <circle cx="44" cy="18" r="8" fill="currentColor" opacity="0.85" />
+            <circle cx="20" cy="18" r="3.5" fill="#0b1120" />
+            <circle cx="44" cy="18" r="3.5" fill="#0b1120" />
+            <ellipse
+              cx="32"
+              cy="38"
+              rx="20"
+              ry="18"
+              fill="currentColor"
+            />
+            <circle cx="25" cy="36" r="2.2" fill="#0b1120" />
+            <circle cx="39" cy="36" r="2.2" fill="#0b1120" />
+            <ellipse cx="32" cy="44" rx="3.2" ry="2.2" fill="#0b1120" />
+            <path
+              d="M28 48 Q32 51 36 48"
+              stroke="#0b1120"
+              strokeWidth="1.6"
+              strokeLinecap="round"
+              fill="none"
+            />
+            <path
+              d="M14 42 Q6 44 4 50"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              fill="none"
+            />
+          </svg>
+            TamiMouse 3.0
           </h1>
           <p className="text-xs text-white/40 font-mono">
             painel de rastreamento · pressione e segure · sequências A·B·C
